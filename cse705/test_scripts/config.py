@@ -1,5 +1,5 @@
 useOriginal = 2
-baseURL = "https://prachip23.github.io"
+baseURL = "https://prachip23.github.io/cse705"
 #baseURL = "http://127.0.0.1:8080"
 
 def getConfig():
@@ -7,5 +7,3 @@ def getConfig():
     return baseURL + "/original/Y40_80.html";
   else:
     return baseURL + "/modified/Y40_80.html";
-
-    
