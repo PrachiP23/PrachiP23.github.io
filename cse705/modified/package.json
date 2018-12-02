@@ -1,0 +1,19 @@
+{
+  "name": "websecurity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "htmlparse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dom-parser": "^0.1.5",
+    "fs": "0.0.1-security",
+    "htmlparser-to-html": "0.0.6",
+    "htmlparser2": "^3.10.0",
+    "path": "^0.12.7",
+    "traverse-dom": "^2.0.1"
+  }
+}

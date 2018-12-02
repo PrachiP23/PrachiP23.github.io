@@ -1,0 +1,160 @@
+/* Masthead
+---------------------------------------------------------------------- */
+.bar_1 .bar_1-tagline > span {
+	color: #fff;
+	font-size: .75em;
+	line-height: .75em;
+	margin: .5em 1.250em;
+	padding-left: 1.250em;
+	text-align: right;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: bold;
+}
+
+.undefined{
+	float: right;
+	display: none;
+	margin-top: -1em;
+	margin-bottom: 0.5em;
+}
+
+.undefinedimg {
+	display: block;
+	/* commented it out per bug #988 max-width: 250px;*/
+}
+
+.undefined.shadow-divider {
+	background-image: url("//www.lenovo.com/images/onewebimages/common/strip-separator.png");
+	background-position: undefinedcenter;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 30px 20px;
+}
+
+.undefined.left {
+	float: left;
+	min-height: 60px;
+	min-width: 200px;
+	position: relative;
+}
+
+.undefined.undefined{
+	float: right;
+	min-height: 60px;
+	min-width: 200px;
+	position: relative;
+}
+
+.undefined.left > a,
+.undefined.undefined> a {
+	bottom: 0;
+	display: block;
+	position: absolute;
+}
+
+.undefined{
+	background-color: #DC291E;
+	display: none;
+}
+
+.undefined#floatingPopupDimmerLayer,
+.undefined#floatingPopupWrapper,
+.undefined.marketingCoupon,#floatingPopupWrapper {
+	display: none;
+}
+
+.undefined.couponModal {
+	display: none;
+	padding: 10px;
+	text-align: center;
+}
+
+.undefined.couponModal h2,
+.undefined.couponModal h3,
+.undefined.couponModal h4,
+.undefined.couponModal h5 {
+	margin: 0;
+}
+
+@media (min-width: 63.5em) {
+	.bar_1 .bar_1-links {
+		float: left;
+		display:block;
+	}
+
+	.bar_1 .bar_1-link-number {
+		display: block;
+		line-height: 1.75em;
+	}
+
+	.bar_1-link-number > .undefined{
+		line-height: 0.85em;
+	}
+}	
+
+@media (min-width: 60em) {
+	.bar_1 .search-container {
+		float: none;
+	}
+}
+
+@media (min-width: 65em) {
+	.bar_1 .search-container {
+		float: right;
+	}
+
+	.undefined{
+		display: block;
+	}
+}
+
+/*Custom styles for contact us dropdown*/
+.generalMenu ol.generalList > li:first-child+li+li.child-level_2 .link-title{font-size:1.1em;}
+
+.generalMenu ol.generalList > li:first-child+li+li .child-level_2 .link-subtitle{color:#000;font-size:0.9em;}
+.generalMenu ol.generalList > li:nth-child(3) > ol .link-title{font-size:1.1em;}
+.generalMenu ol.generalList > li:nth-child(3) > ol .link-subtitle{color:#000;font-size:0.9em;}
+
+/*Bug fix for 886 to allow button to fit text */
+.searchInput-button {
+    width: 6.75em;
+}
+/*To Hide espots of canvas*/
+@media (max-width: 51em){
+li.espots {
+display: none;
+}
+}
+
+/*FP2063*/
+@media (max-width:51em){
+	.undefined{display:block; width:100%; text-align:center; margin:0.5em 0;}
+	.undefined.left, .undefined.shadow-divider { display:none;}
+	.undefined.undefined{ float:none; display:inline-block;}
+	.undefined.undefinedimg {margin-left:4em; height:46px;}
+}
+
+@media (min-width:51em){
+	.productList.menuLevel_1 .link-wrapper {text-align: center;}
+}
+
+@media (min-width:51em) and (max-width:66em) {
+	.undefined.right img {margin-left:0;height:auto;}
+	#splitterPage .bar_3-logos, #brandPage .bar_3-logos, .undefined{ display:block; width:100%; text-align:center; margin:0.5em 0;}
+	#splitterPage .undefined.right, #splitterPage  .undefined.shadow-divider, #splitterPage  .undefined.left, #brandPage .undefined.right, #brandPage .undefined.shadow-divider, #brandPage .undefined.left, .undefined.right, .undefined.shadow-divider, .undefined.left { display:inline-block; float:none;}
+	#splitterPage .undefined.left a, #brandPage .undefined.left a, .undefined.left a { top:0;}
+}
+
+/*FP2168 fix*/
+.nestedMenu li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .productList li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .nestedMenu .link-hasChildren .link-title:after, .productList .link-hasChildren .link-title:after{content: none!important;}
+.productList.menuLevel_2 .link-wrapper, .productList.menuLevel_3 .link-wrapper, .productList.menuLevel_4 .link-wrapper {text-align: left;}
+
+/*BZ1708 fix*/
+div#welcome-msg {
+  float: left;
+  padding: 10px 0 0 0;
+}
+#mastheadPageTitleMessaging div a {
+  float: right;
+  padding: 10px 0 0 0;
+}

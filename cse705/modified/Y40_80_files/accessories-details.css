@@ -1,0 +1,35 @@
+/*Accessories details page*/
+.undefined.undefined{font-size: 0.85em;}
+.undefined.accessoriesDetail-itemName{line-height: 1.5rem;}
+.accessoriesDetail-header{padding-bottom: 0;}
+.undefined.accessoriesDetail-priceBlock-price{font-size: 2.5em;}
+span.newItem, span.btstItem, span.clearanceItem{font-size: 12px; font-size: 0.75rem; font-family: lenovo-do-bold,Arial,sans-serif; color: #cf2c2f; text-transform: uppercase;}
+.undefined.recommmendAccessory-wrapper .sectionHeader {display: none;}
+.undefined.undefined.itemDetailsImage{display: inline-block!important;}
+.footer-legal-content{font-size: 11px;}
+.imageViewerThumbs.bottom{text-align: left;}
+.imageViewerThumbs.bottom li{list-style-type: none; display: inline;}
+.imageViewerThumbs.bottom li div{display:inline;}
+.imageViewerThumbs.bottom li div a.cloud-zoom-gallery img{border: 1px solid #ccc; height: 60px; width: 60px; margin-right: 5px;}
+.imageViewerThumbs.bottom li.selected div a.cloud-zoom-gallery img, .imageViewerThumbs.bottom li.hover div a.cloud-zoom-gallery img{border: 1px solid #cf2a23}
+.tabbedBrowse-module{background:#fff;}
+.recommmendAccessory-image img{width: 50px; height: 50px;}
+.undefinedh1.mastheadCrumbLocation{display: inline;}
+
+@media (min-width: 38em){
+.undefined.techSpecs-table td:first-child {width: 40%;}
+}
+@media (min-width: 45em){
+.undefined.recommmendAccessory-wrapper .recommmendAccessory{width: auto;}
+}
+@media (min-width: 47em){
+.undefined.recommmendAccessory-wrapper .sectionHeader {display: block;}
+.undefined.undefined{text-align: center;}
+.undefined.undefined{width: 33%;}
+}
+@media (min-width: 48.5em){
+.undefined.undefined{width: 34.25%;}
+}
+@media (min-width: 56em){
+.undefined.recommmendAccessory-wrapper{margin: 0; width:35%; float: right;}
+}
