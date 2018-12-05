@@ -11,68 +11,68 @@
 	font-weight: bold;
 }
 
-.undefined{
+.rand-class-3961{
 	float: right;
 	display: none;
 	margin-top: -1em;
 	margin-bottom: 0.5em;
 }
 
-.undefinedimg {
+.rand-class-3961img {
 	display: block;
 	/* commented it out per bug #988 max-width: 250px;*/
 }
 
-.undefined.shadow-divider {
+.rand-class-3961.shadow-divider {
 	background-image: url("//www.lenovo.com/images/onewebimages/common/strip-separator.png");
-	background-position: undefinedcenter;
+	background-position: rand-class-5943center;
 	background-repeat: no-repeat;
 	float: left;
 	padding: 30px 20px;
 }
 
-.undefined.left {
+.rand-class-3961.left {
 	float: left;
 	min-height: 60px;
 	min-width: 200px;
 	position: relative;
 }
 
-.undefined.undefined{
+.rand-class-3961.rand-class-5943{
 	float: right;
 	min-height: 60px;
 	min-width: 200px;
 	position: relative;
 }
 
-.undefined.left > a,
-.undefined.undefined> a {
+.rand-class-3961.left > a,
+.rand-class-3961.rand-class-5943> a {
 	bottom: 0;
 	display: block;
 	position: absolute;
 }
 
-.undefined{
+.rand-class-8004{
 	background-color: #DC291E;
 	display: none;
 }
 
-.undefined#floatingPopupDimmerLayer,
-.undefined#floatingPopupWrapper,
-.undefined.marketingCoupon,#floatingPopupWrapper {
+.rand-class-8004#floatingPopupDimmerLayer,
+.rand-class-8004#floatingPopupWrapper,
+.rand-class-8004.marketingCoupon,#floatingPopupWrapper {
 	display: none;
 }
 
-.undefined.couponModal {
+.rand-class-8004.couponModal {
 	display: none;
 	padding: 10px;
 	text-align: center;
 }
 
-.undefined.couponModal h2,
-.undefined.couponModal h3,
-.undefined.couponModal h4,
-.undefined.couponModal h5 {
+.rand-class-8004.couponModal h2,
+.rand-class-8004.couponModal h3,
+.rand-class-8004.couponModal h4,
+.rand-class-8004.couponModal h5 {
 	margin: 0;
 }
 
@@ -87,7 +87,7 @@
 		line-height: 1.75em;
 	}
 
-	.bar_1-link-number > .undefined{
+	.bar_1-link-number > .rand-class-5737{
 		line-height: 0.85em;
 	}
 }	
@@ -103,7 +103,7 @@
 		float: right;
 	}
 
-	.undefined{
+	.rand-class-3961{
 		display: block;
 	}
 }
@@ -128,10 +128,10 @@ display: none;
 
 /*FP2063*/
 @media (max-width:51em){
-	.undefined{display:block; width:100%; text-align:center; margin:0.5em 0;}
-	.undefined.left, .undefined.shadow-divider { display:none;}
-	.undefined.undefined{ float:none; display:inline-block;}
-	.undefined.undefinedimg {margin-left:4em; height:46px;}
+	.rand-class-3961{display:block; width:100%; text-align:center; margin:0.5em 0;}
+	.rand-class-3961.left, .rand-class-3961.shadow-divider { display:none;}
+	.rand-class-3961.rand-class-5943{ float:none; display:inline-block;}
+	.rand-class-3961.rand-class-5943img {margin-left:4em; height:46px;}
 }
 
 @media (min-width:51em){
@@ -139,10 +139,10 @@ display: none;
 }
 
 @media (min-width:51em) and (max-width:66em) {
-	.undefined.right img {margin-left:0;height:auto;}
-	#splitterPage .bar_3-logos, #brandPage .bar_3-logos, .undefined{ display:block; width:100%; text-align:center; margin:0.5em 0;}
-	#splitterPage .undefined.right, #splitterPage  .undefined.shadow-divider, #splitterPage  .undefined.left, #brandPage .undefined.right, #brandPage .undefined.shadow-divider, #brandPage .undefined.left, .undefined.right, .undefined.shadow-divider, .undefined.left { display:inline-block; float:none;}
-	#splitterPage .undefined.left a, #brandPage .undefined.left a, .undefined.left a { top:0;}
+	.rand-class-3961.right img {margin-left:0;height:auto;}
+	#splitterPage .bar_3-logos, #brandPage .bar_3-logos, .rand-class-3961{ display:block; width:100%; text-align:center; margin:0.5em 0;}
+	#splitterPage .rand-class-3961.right, #splitterPage  .rand-class-3961.shadow-divider, #splitterPage  .rand-class-3961.left, #brandPage .rand-class-3961.right, #brandPage .rand-class-3961.shadow-divider, #brandPage .rand-class-3961.left, .rand-class-3961.right, .rand-class-3961.shadow-divider, .rand-class-3961.left { display:inline-block; float:none;}
+	#splitterPage .rand-class-3961.left a, #brandPage .rand-class-3961.left a, .rand-class-3961.left a { top:0;}
 }
 
 /*FP2168 fix*/

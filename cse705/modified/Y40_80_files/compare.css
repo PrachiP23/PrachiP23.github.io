@@ -12,7 +12,7 @@
 /* minimum slider styles */
 #compareSlider { position: fixed; z-index: 98; }
 
-#compareSlider.undefined{ overflow: hidden; }
+#compareSlider.rand-class-5290{ overflow: hidden; }
 
 .notready { display: none; }
 
@@ -24,9 +24,9 @@
 #compareSlider { position: fixed; right: -200px; top: 0; z-index: 98; }
 #compareSlider #sliderTab { z-index: 99; background: #000000; float: left; height: 280px; width: 39px; background-image: url("/ISS_Static/site/compare/arrow_open.png"); background-repeat: no-repeat; }
 #compareSlider #sliderContent { background-color: #efefef; border: 1px solid #cecfce; border-right: 0; float: left; min-height: 278px; max-height: 500px; width: 200px; }
-#compareSlider.undefined{ height: 300px; }
-#compareSlider.undefined#sliderTab { z-index: 99; float: left; width: 39px; background: #000000; background-image: url("/ISS_Static/site/compare/arrow_closed.png"); background-repeat: no-repeat; }
-#compareSlider.undefined{ clear: both; }
+#compareSlider.rand-class-5290{ height: 300px; }
+#compareSlider.rand-class-5290#sliderTab { z-index: 99; float: left; width: 39px; background: #000000; background-image: url("/ISS_Static/site/compare/arrow_closed.png"); background-repeat: no-repeat; }
+#compareSlider.rand-class-1964{ clear: both; }
 #compareSlider #title {color: #ffffff;display: inline-block;float: left;font-family: "LenovoDoMedium", Arial, Helvetica, sans-serif;font-size: 16px;font-weight: bold; 
 margin-top: 2em;margin-top: 40px\9;left: 0px;letter-spacing: 0.05em;line-height: 1.5;line-height: 2.25 \9;position: relative;text-align: center;text-transform: uppercase;white-space: nowrap;width: 39px;width: 240px\9;writing-mode: tb-rl;writing-mode: lr-tb\9;z-index: 99;-webkit-transform: rotate(270deg);-moz-transform: rotate(270deg);-o-transform: rotate(270deg);transform:rotate(270deg);transform-origin:115px 105px;-ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
 

@@ -72,6 +72,7 @@ walkDOM(handler.dom, true, function(node){
             catch (err) { console.log(err); }
   });
 
+  console.log(classMap);
   var dir = 'Y40_80_files';
   fs.readdir(dir, function(err, files){
     if(err) console.log(err);
@@ -86,7 +87,7 @@ walkDOM(handler.dom, true, function(node){
         css_str.match(regex).forEach(m =>{
             var str = m.replace('.', "");
             if (str.trim() in classMap) {
-                css_str = css_str.replace(str, classMap[m]);
+                css_str = css_str.replace(str, classMap[str.trim()]);
             }
         });
         fs.writeFileSync(file_path, css_str);

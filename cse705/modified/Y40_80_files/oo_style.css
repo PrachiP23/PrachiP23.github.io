@@ -96,25 +96,25 @@ a#oo_launch_prompt:hover { background: #009966; }
 @media (max-width: 55em) {
   html body #oo_invitation_prompt { width:auto; margin:4em; }
   .trusteValidation-icon, .trusteValidation { margin-right: 1em; width: 104px; }
-  .undefined> #oo_float { background: #ffffff; bottom: auto !important; display: table; float: left; height: 33px; position: relative; right: auto !important; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
-  .undefined> #oo_float .olUp { background-position: 0.5em center; display: table-cell; padding: 0 1em 0 2.5em; text-align: left; vertical-align: middle; }
-  .undefined> #oo_float .olOver { display: table; min-height: initial; padding: 0 1em; }
-  .undefined> #oo_float .olOver span { display: table-cell; font-size: 0.9em; padding: 0; text-align: left; vertical-align: middle; }
-  .undefined> #oo_float .oo_transparent { border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+  .rand-class-5989> #oo_float { background: #ffffff; bottom: auto !important; display: table; float: left; height: 33px; position: relative; right: auto !important; border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
+  .rand-class-5989> #oo_float .olUp { background-position: 0.5em center; display: table-cell; padding: 0 1em 0 2.5em; text-align: left; vertical-align: middle; }
+  .rand-class-5989> #oo_float .olOver { display: table; min-height: initial; padding: 0 1em; }
+  .rand-class-5989> #oo_float .olOver span { display: table-cell; font-size: 0.9em; padding: 0; text-align: left; vertical-align: middle; }
+  .rand-class-5989> #oo_float .oo_transparent { border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0; }
 }
 @media (min-width: 55.01em) {
   html body #oo_invitation_prompt { width: 30em; }
 }
 /* Lenovo RU formatting */
 @media (max-width:35em) {
-  html[lang="ru"] .undefined> #oo_float,head[lang="ru"] .undefined> #oo_float { width: 80%; }
+  html[lang="ru"] .rand-class-5989> #oo_float,head[lang="ru"] .rand-class-5989> #oo_float { width: 80%; }
 }
 @media (min-width:35.01em) and (max-width:49.99em) {
-  html[lang="ru"] .undefined> #oo_float,head[lang="ru"] .undefined> #oo_float { width: 35%; }
+  html[lang="ru"] .rand-class-5989> #oo_float,head[lang="ru"] .rand-class-5989> #oo_float { width: 35%; }
 }
 @media (min-width: 50em) and (max-width:55em) {
-  html[lang="ru"] .undefined> #oo_float,head[lang="ru"] .undefined> #oo_float { width: 50%; }
+  html[lang="ru"] .rand-class-5989> #oo_float,head[lang="ru"] .rand-class-5989> #oo_float { width: 50%; }
 }
 @media (min-width:55.01em) {
-  html[lang="ru"] .undefined> #oo_float,head[lang="ru"] .undefined> #oo_float { height: 5em; }
+  html[lang="ru"] .rand-class-5989> #oo_float,head[lang="ru"] .rand-class-5989> #oo_float { height: 5em; }
 }

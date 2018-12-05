@@ -41,7 +41,7 @@
 
 #fancybox-right:hover span { left: auto; right: 20px; }
 
-.undefined{ position: absolute; padding: 0; margin: 0; border: 0; width: 20px; height: 20px; z-index: 1001; }
+.rand-class-3795{ position: absolute; padding: 0; margin: 0; border: 0; width: 20px; height: 20px; z-index: 1001; }
 
 #fancybox-bg-n { top: -20px; left: 0; width: 100%; background-image: url("/ISS_Static/WW/site/scripts/fancybox/fancybox-x.png"); }
 
@@ -103,7 +103,7 @@
 #fancybox-loading.fancybox-ie6 div { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_loading.png', sizingMethod='scale'); }
 
 /* IE6, IE7, IE8 */
-.fancybox-ie .undefined{ background: transparent !important; }
+.fancybox-ie .rand-class-3795{ background: transparent !important; }
 
 .fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/ISS_Static/WW/site/scripts/fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
 

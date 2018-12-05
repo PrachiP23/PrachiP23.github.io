@@ -185,7 +185,7 @@
 	right: 20px;
 }
 
-.undefined{
+.rand-class-3795{
 	position: absolute;
 	padding: 0;
 	margin: 0;
@@ -347,7 +347,7 @@
 
 /* IE6, IE7, IE8 */
 
-.fancybox-ie .undefined{ background: transparent !important; }
+.fancybox-ie .rand-class-3795{ background: transparent !important; }
 
 .fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
 .fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_ne.png', sizingMethod='scale'); }
